@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: 'Biryani', sans-serif;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg,#000000, #ff0000);
+    display:flex; flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #dddddd75;
+    width: 631px;
+    height: 650px;
+    border-radius: 24px;
+    overflow: auto;
+}
+.container .img{
+    display: flex;
+    margin-top: -40px;
+    height: 95px;
+    margin-bottom: 0;
+}
+.container .img p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+.container h3{
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 98%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.flex-card{
+    margin: 20px;
+    min-width: 548px;
+    min-height: 156px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+    display: flex;
+}
+.flex-card .img-card {
+    display: flex;
+    width: 153px;
+    height: 100%;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-card .img-card img{
+    width: 121;
+    height: 91;
+}
+.card-content{
+    margin: 20px;
+    color: black;
+}
+.card-content p,.card-content h3{
+    color: black;
+    margin: -5px;
+}
+.card-content p{
+    font-size: 12px;
+    max-width: 355px;
+}
+.card-content h4{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    color: rgb(70, 68, 68);
+    margin-left: -6;
+}
+.flex-card a{
+    display: flex;
+    bottom: 0;
+    width: 200px;
+    height: 40px;
+    background: #2D2A2A;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.flex-card a:hover{
+    background-color: #605b5b;
+    transition: ease all 0.2s;
+}
+.back-btn{
+    float: left;
+    width: 100%;
+    margin: 10;
+    margin-left: 40px;
+    font-size: 17px;
+    
+}
+
+.back-btn a{
+    text-decoration: none;
+}
+.back-btn a:hover{
+    color: #ff0000;
+    transition: all ease 0.2s;
+}
+
+.back-btn a:hover i.bi.bi-backspace{
+    color: #ff0000;
+    transition: all ease 0.2s;
+}
+    /* CSS untuk profil mengambang */
+    .floating-profile {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+      }
+      
+      .floating-profile .profile-icon {
+        font-size: 30px;
+        cursor: pointer;
+        color: #333;
+      }
+      
+      .floating-profile .dropdown-menu {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 8px;
+        display: none;
+        width: 100px;
+      }
+      
+      .floating-profile .dropdown-menu a {
+        display: block;
+        padding: 4px 8px;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+      }
+      
+      .floating-profile:hover .dropdown-menu {
+        display: block;
+      }
+

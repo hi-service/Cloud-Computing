@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: 'Biryani', sans-serif;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg,#000000, #ff0000);
+    overflow: hidden;
+
+}
+.container{
+    padding-top: 50px;
+    margin-left: 270px;
+    transition: all 0.3s ease;
+    height: 100%;
+    overflow: auto;
+}
+
+.container.close .data-attr{
+    margin-left: 200px;
+    transition: all 0.3s ease;
+}
+.container.close{
+    margin-left: 100px;
+    transition: all 0.3s ease
+}
+.container .data{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 45px;
+}
+.container .data-attr{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+height: 150px;
+width: 250px;
+background-color: rgba(234, 234, 234, 0.259);
+font-size: 40px;
+border-radius: 10px;
+transition: all 0.3s ease;
+}
+.container .data-attr p{
+font-size: 16px;
+margin: 0;
+}
+.container .data-attr .text-data{
+    font-size: 24px;
+}

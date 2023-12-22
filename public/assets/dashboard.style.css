@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Inter:wght@300&display=swap');
+* {
+    font-family: 'Biryani', sans-serif;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg,#000000, #ff0000);
+    display:flex; flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+}
+span.back-btn{
+    float: left;
+    width: 90%;
+    margin: 10;
+    margin-left: 40px;
+    font-size: 17px;
+    
+}
+
+span.back-btn a{
+    text-decoration: none;
+}
+span.back-btn a:hover{
+    color: #ff0000;
+    transition: all ease 0.2s;
+}
+
+span.back-btn a:hover i.bi.bi-backspace{
+    color: #ff0000;
+    transition: all ease 0.2s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 24px;
+}
+.id-card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    background-color: rgba(199, 199, 199, 0.647);
+    border-radius: 30px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.id-card img{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+}
+.sleep-card{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.sleep-card .flex-box{
+    display: flex;
+    flex-direction: column;
+    width: 200;
+    height: 200;
+    background-color: rgba(199, 199, 199, 0.647);
+    border-radius: 20px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sleep-card .flex-box i {
+    font-size: 48px;
+}
+.id-card .attr-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    height: 40%;
+    width: 90%;
+    
+}
+.id-card .attr-container i{
+    padding-right: 10px;
+}
+.id-card .attr-container h4{
+    margin:0;
+    padding-left: 10px;
+    font-size: 12px;
+    
+}
+a.btn-logout{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}

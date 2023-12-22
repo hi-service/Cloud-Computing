@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: 'Biryani', sans-serif;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg,#000000, #ff0000);
+    overflow: hidden;
+
+}
+.container{
+    padding-top: 50px;
+    margin-left: 270px;
+    transition: all 0.3s ease;
+    height: 700px;
+    overflow: auto;
+}
+
+.container.close .data-attr{
+    margin-left: 200px;
+    transition: all 0.3s ease;
+}
+.container.close{
+    margin-left: 100px;
+    transition: all 0.3s ease
+}
+.container .order-card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 230px;
+    background-color: rgba(245, 190, 190, 0.588);
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.container .order-card p{
+    margin: 0;
+}
+.button-card{
+    display: flex;
+    width: 100%
+
+}
+.button-card button{
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 38px;
+    width: 164px;
+}
+.button-card .wa-btn{
+    color: #25D366;
+    cursor: pointer;
+}
+.button-card .loc-btn{
+    color: red;
+    cursor: pointer;
+}
+.button-card .desc-btn{
+    cursor: pointer;
+    color: white;
+}
+.swal2-icon-content{
+    color: #87adbd;
+}
+
+.acc-card{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.acc-card .acc-btn{
+    background-color: green;
+    height: 50px;
+}
+.acc-card .reject-btn{
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    margin-left: 20px;
+}
